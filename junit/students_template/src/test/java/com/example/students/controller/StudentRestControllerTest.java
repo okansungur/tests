@@ -72,7 +72,6 @@ public class StudentRestControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON));
 
-
     }
 
 

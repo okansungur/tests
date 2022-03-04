@@ -17,7 +17,8 @@ public class MyseleniumApplication {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D://Apps//chromedriver_win32//chromedriver.exe");
         getSampleWeb("http://localhost:8888/simple/showLogin");
-        //getChrome("https://www.google.com/");
+        //getSampleWeb("https://samplewebrest.herokuapp.com/simple/main");
+        //getChrome(url);
     }
 
     static void getSampleWeb(String url) throws InterruptedException {
