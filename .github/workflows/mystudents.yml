@@ -27,19 +27,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8
+      
       - uses: joschi/setup-jdk@v2
         with:
           java-version: '8'
       - name: Build with Maven
+      
         run: mvn -B package --file pom.xml
-  checkstyle:
-    name: runner/checkstyle
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: dbelyaev/action-checkstyle@v0.5.1
-        with:
-          
-          reporter: github-pr-review
+        
+ 
           level: warning  
 
