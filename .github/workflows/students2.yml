@@ -1,0 +1,23 @@
+name: Java CI with Maven
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java-version: [ 8.0.241,11.0.3 ]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK ${{ matrix.java-version }}
+      uses: actions/setup-java@v2
+      with:
+        java-version: ${{ matrix.java-version }}
+        distribution: 'zulu'
+        cache: maven
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+       
