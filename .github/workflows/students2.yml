@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: students2
 on:
   push:
     branches: [ main ]
