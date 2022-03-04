@@ -33,7 +33,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
   checkstyle:
-    name: runner / checkstyle
+    name: runner/checkstyle
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
