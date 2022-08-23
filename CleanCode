@@ -4,5 +4,8 @@ Rule - 1 : You may not write any production code without a failing unit test fir
 Rule - 2 : Write only enough test code as is sufficient enough to fail (not compiling=failing) usage of undeclared class 
 Rule - 3 : Only write a minimal code that makes the failing test pass. declare the class only
 
+Test code is as important as productyion code
+
+
 
 
