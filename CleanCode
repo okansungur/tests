@@ -191,3 +191,14 @@ public class JavaApplication1 {
 
 
 
+4 conditions required for deadlock to occur
+1-Mutual exclusion
+    
+2-Hold and wait 
+    
+3- No preemption
+    
+4- Circular wait
+
+
+https://java-source.net/open-source/testing-tools
