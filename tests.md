@@ -1,5 +1,24 @@
-## Testing Strategies
+### Clean Code
 
+
+ __3-Laws of TDD__ :
+ 
+Rule - 1 : You may not write any production code without a failing unit test first 
+
+Rule - 2 : Write only enough test code as is sufficient enough to fail (not compiling=failing) usage of undeclared class 
+
+Rule - 3 : Only write a minimal code that makes the failing test pass. declare the class only
+
+
+Test code is as important as production code. Make it readable. Clean tests folllow 5 other rules as FIRST.
+- Fast(runs quickly) 
+- Independent(should not depend on each other)
+- Repeatable(All environments) 
+- Self-Validating(boolean output fail or pass)  
+- Timely(before production code) 
+- 
+
+## Testing Strategies
 
 Active Record is a good choice for domain logic that isn't too complex, such as creates, reads, updates, and deletes.The active record pattern is an approach to accessing data in a database. A database table or view is wrapped into a class. Thus, an object instance is tied to a single row in the table. After creation of an object, a new row is added to the table upon save.Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. Example: ORM tools
 
