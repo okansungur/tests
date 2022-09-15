@@ -1,8 +1,8 @@
 ### Clean Code
 
-TDD: Is a methodology focuses on iterative development lifecycle. Add a test (Red) new test fails.Write enough code to pass the test(Green). Run test and refactor. So that in the end you save time.
+__TDD__: Is a methodology focuses on iterative development lifecycle. Add a test (Red) new test fails.Write enough code to pass the test(Green). Run test and refactor. So that in the end you save time.
 
-BDD: (Cucumber) Gherkin Language is used. (Given When Then) BDD is concerned about result of higher level scenarios. TDD is focused on testing smaller pieces of functionality in isolation.TDD you should have the knowledge of programming language whereas in BDD you dont have to.
+__BDD__: (Cucumber) Gherkin Language is used. (Given When Then) BDD is concerned about result of higher level scenarios. TDD is focused on testing smaller pieces of functionality in isolation.TDD you should have the knowledge of programming language whereas in BDD you dont have to.
 
  __3-Laws of TDD__ :
  
