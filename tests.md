@@ -1,4 +1,4 @@
-### Testing
+### Testing approach & strategies
 
 __TDD__: Is a methodology focuses on iterative development lifecycle. Add a test (Red) new test fails.Write enough code to pass the test(Green). Run test and refactor. So that in the end you save time.
 
