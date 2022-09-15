@@ -10,6 +10,6 @@
 
 
 <p align="center">
-  <img  src="https://github.com/okansungur/tests/blob/main/tests/testingstrategy.png"><br/>
-  Testing Strategy
+  <img  src="https://github.com/okansungur/tests/blob/main/tests/testingstr_desiciontree.png"><br/>
+  Testing Strategy Desicion Tree
 </p>
