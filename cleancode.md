@@ -1,7 +1,7 @@
 ## Clean Code
 
 
- __ 3 Laws of TDD__ :
+ __3-Laws of TDD__ :
  
 Rule - 1 : You may not write any production code without a failing unit test first 
 
